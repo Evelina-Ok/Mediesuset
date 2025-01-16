@@ -1,0 +1,15 @@
+.newsCard {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+
+    img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+
+    }
+}
