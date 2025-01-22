@@ -17,7 +17,7 @@ export function Navbar() {
             <NavLink to="/camps">CAMPS</NavLink>
           </li>
           <li>
-            <NavLink to="/billeter">BILLETER</NavLink>
+            <NavLink to="/billetter">BILLETTER</NavLink>
           </li>
           <li>
             <NavLink to="/info">PRAKTISK INFO</NavLink>

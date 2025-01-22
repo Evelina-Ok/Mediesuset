@@ -25,7 +25,6 @@ export function FrontPage() {
             return (
               <NewsCard
                 key={item.title}
-                // {item.image && <img src={item.image} alt={item.title} />}
                 imgSrc={item.image}
                 title={item.title}
                 text={item.teaser}

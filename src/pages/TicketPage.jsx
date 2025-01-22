@@ -16,7 +16,7 @@ export function TicketPage() {
 
   return (
     <>
-      <Hero img="../../assets/images/hero2.png" />
+      <Hero img="../assets/images/hero2.png" />
       <SectionTitle title="BILLETTER" />
       <h2>PARTOUT BILLET - ALLE DAGE</h2>
     {data?.items?.filter((item) => item.type === "partout").map((ticket) => {
